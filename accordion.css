@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+
+ .accordion{
+    margin: auto;
+    width: 50%;
+
+    cursor: pointer;
+ }
+
+ .accordion-heading{
+   background-color: #E8F2EB  ;
+   padding: 5%;
+   border: 1px solid grey;
+
+ }
+
+ .accordion-title{
+    color: #51D5E5  ;
+    font-size: 1.2em;
+ }
+
+ .accordion-body{
+   display: none;
+   padding: 5%;
+   border: 1px solid grey;
+   word-wrap: break-word;
+ }
+
+
+ .links{
+   margin: 60px;
+   font-size: 1.4rem;
+
+ }
+
+ .links a{
+   padding: 5px;
+ }
